@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h2 id="queno">qustion number</h2><br>
+            <h3 id="que">questions here</h3>
+            <ul>
+                <li><input type="radio" name="option" id="ans1"> <span id="option1"> option 1 here
+                </span>
+                </li>
+                <li><input type="radio" name="option" id="ans2"><span id="option2"> option 2 here
+                </span>
+                </li>
+                <li><input type="radio" name="option" id="ans3"> <span id="option3"> option 3 here
+                </span>
+                </li>
+                <li><input type="radio" name="option" id="ans4"> <span id="option4"> option 4 here
+                </span>
+                </li>
+            </ul>
+            <button type="button" id="submit" onclick="next()">Next</button>
+            <div class="score_area" id="score"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
